@@ -71,7 +71,7 @@ a.nav-link {
 }
 
 .nav-item {
-  margin: 0 50px;
+  margin: 0 35px;
 }
 
 
@@ -169,6 +169,12 @@ a.nav-link {
 }
 /* END PORTFOLIO PAGE */
 
+/*Main Container*/
+main.container {
+  background-color: white;
+  min-width: 85%;
+  max-width: 85%;
+}
 
 /* CONTACT FORM PAGE  */
 .form-control {
