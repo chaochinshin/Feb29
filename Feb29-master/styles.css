@@ -4,8 +4,9 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background: beige;
- 
+  background: url('images/businessbuildings.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 html {

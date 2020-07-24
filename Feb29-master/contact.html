@@ -7,16 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Bootstrap Basic Homework Demo</title>
+  <title>Bootstrap Basic Portfolio</title>
 
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
   <!-- Our own CSS stylesheet -->
   <link rel="stylesheet" href="styles.css" media="screen">
+
+  <!-- Resume-->
+  <link rel="resume" href="C:\Users\Owner\Documents\RESUME\July18 2020.docx">
 
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -29,7 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link font-italic" href="index.html">About me</a>
+                <a class="nav-link font-italic" href="resume/resume2020.pdf">Resume</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link font-italic" href="portfolio.html">Portfolio</a>
@@ -37,12 +42,12 @@
               <li class="nav-item">
                 <a class="nav-link font-italic" href="Workhistory.html">Work History</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link font-italic" href="contact.html">Contact</a>
               </li>
-            <li class="nav-item active">
+              <li class="nav-item">
               <a class="nav-link font-italic" href="Homeworkdm.html">Homework Demo</a>
-              </li>
+            </li>
             </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -51,53 +56,51 @@
       </nav>
       <!-- End of navbar -->
 
-
-
   <!-- Start of container -->
   <main class="container">
-    <main class="row">
-      <div>
-        <article class="block">
-          <h1 class="block-header">Homework Demo</h1>
+    <section class="row">
+     
+        
+        <form action="mailto:ChaoChinShin@gmail.com" method="post" enctype="text/plain" class="block form-horizontal">
+          <h1 class="block-header">Contact Me</h1>
           <hr />
-          <section>
-          <h2 class="block-header">Full Stack Class Homework Demo with links</h2>
-          <hr />
-          
-          <p>Click links below to see homework assignments and projects completed.
-
-          </p>
-
-          <div class="row ml-4 mr-3">
-            <ul>
-              <li><a href = "https://github.com/chaochinshin/Homework1.git">Search Engine Optimization</a></li>
-              <li><a href = "https://github.com/chaochinshin/Feb29.git">First attempt creating Portfolio</a></li>
-              <li><a href = "https://github.com/chaochinshin/generatePassword.git">Generate Password</a></li>
-              <li><a href = "https://github.com/chaochinshin/codequiz.git">Javascript CodeQuiz</a></li>
-              <li><a href = "https://github.com/chaochinshin/calendar.git">Calendar</a></li>
-              <li><a href = "https://github.com/chaochinshin/march29.git">Weather</a></li>
-              <li><a href = "https://github.com/chaochinshin/project.git">Language Translator English/Spanish/Chinese with copy feature</a></a></li>
-              <li><a href = "https://github.com/chaochinshin/node.git">Generate readme through command line interface</a></li>
-              <li><a href = "https://github.com/chaochinshin/OOP.git">Command line Employee Management tool</a></li>
-              <li><a href = "https://github.com/chaochinshin/notetaker.git">NoteTaker</a></li>
-              <li><a href = "https://github.com/chaochinshin/sqlstartercode11.git">Database Employee Management tool</a></li>
-              <li><a href = "https://github.com/chaochinshin/burger.git">Interactive Burger list with eaten button</a></li>
-              <li><a href = "https://github.com/chaochinshin/hw14.git">Reverse Engineering</a></li>
-              <li><a href = "https://github.com/Brandenlanghals/EverydaySensei">Second group project - Matching teachers and learners for variety interests</a></li>
-            </ul>
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="Name" placeholder="ChinShin Chao">
             </div>
-          </section>
-         </article>
-      </div>
-    </main>
-</main>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Cellphone</label>
+            <div class="col-sm-10">
+              <input type="cellphone" class="form-control" id="email" placeholder="440-638-9873">
+            </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="ChaoChinShin@gmail.com">
+            </div>
+          </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="msg">Message</label>
+            <div class="col-sm-10">
+              <textarea id="msg" class="form-control" rows="3" placeholder="Please call me anytime.  I do not have voicemail but I will call you back."></textarea>
+            </div>
+          </div>
+              <button type="submit" class="col-sm-2 submit-btn">Submit</button>
+        </form>
+        
+    
+    </section>
+  </main>
   <!-- End of container -->
 
   <!-- Start of footer -->
   <footer class="footer">
     <div class="two-toned-footer-color"></div>
     <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright 2018 Your Name
+      &copy; Copyright
     </p>
   </footer>
   <!-- End of footer -->
